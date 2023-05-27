@@ -33,3 +33,5 @@ increment_func, decrement_func = outer_function()
 print(increment_func()) # Output: 1
 print(increment_func()) # Output: 2
 print(decrement_func()) # Output: 1
+current_cnt = decrement_func()
+print(current_cnt)
